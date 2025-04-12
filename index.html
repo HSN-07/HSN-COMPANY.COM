@@ -492,54 +492,7 @@ h2::after {
   transform: translateY(-2px);
 }
 
-/* Payment Processing Modal */
-.payment-modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 2000;
-  align-items: center;
-  justify-content: center;
-}
 
-.payment-modal-content {
-  background-color: white;
-  padding: 2rem;
-  border-radius: 8px;
-  max-width: 500px;
-  width: 90%;
-  text-align: center;
-  animation: slideDown 0.4s;
-}
-
-.payment-spinner {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  color: var(--primary);
-  animation: spin 1s linear infinite;
-}
-
-.payment-success {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  color: var(--success);
-}
-
-.payment-error {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  color: var(--error);
-}
-
-.payment-details {
-  margin-top: 1rem;
-  font-size: 0.9rem;
-  color: var(--gray);
-}
 
 /* Testimonial Styles */
 .testimonials {
@@ -1095,14 +1048,7 @@ footer {
   .modal-content {
     padding: 1.5rem;
   }
-  
-  .payment-methods {
-    flex-direction: column;
-  }
-  
-  .payment-btn {
-    width: 100%;
-  }
+ 
 }
 
 /* Animation classes */
@@ -1278,14 +1224,14 @@ footer {
         </div>
       </div>
       <div class="project-actions">
-        <a href="#" class="project-btn primary-btn purchase-btn" data-product="Modern Business Template" data-price="49"><i class="fas fa-shopping-cart"></i> Purchase Template ($49)</a>
+       
         <a href="#" class="project-btn secondary-btn"><i class="fas fa-eye"></i> View Live Demo</a>
       </div>
     </div>
   </div>
 
   <div class="project-actions">
-        <a href="#" class="project-btn primary-btn purchase-btn" data-product="Modern Business Template" data-price="49"><i class="fas fa-shopping-cart"></i> Purchase Template ($49)</a>
+     
         <a href="#" class="project-btn secondary-btn"><i class="fas fa-eye"></i> View Live Demo</a>
       </div>
     </div>
@@ -1327,7 +1273,7 @@ footer {
         </div>
       </div>
       <div class="project-actions">
-        <a href="#" class="project-btn primary-btn purchase-btn" data-product="E-commerce Theme" data-price="89"><i class="fas fa-shopping-cart"></i> Purchase Theme ($89)</a>
+        
         <a href="#" class="project-btn secondary-btn"><i class="fas fa-eye"></i> View Live Demo</a>
       </div>
     </div>
@@ -1369,8 +1315,7 @@ footer {
         </div>
       </div>
       <div class="project-actions">
-        <a href="#" class="project-btn primary-btn purchase-btn" data-product="Portfolio Template" data-price="59"><i class="fas fa-shopping-cart"></i> Purchase Template ($59)</a>
-        <a href="#" class="project-btn secondary-btn"><i class="fas fa-eye"></i> View Live Demo</a>
+           <a href="#" class="project-btn secondary-btn"><i class="fas fa-eye"></i> View Live Demo</a>
       </div>
     </div>
   </div>
@@ -1442,11 +1387,11 @@ footer {
           <li>Responsive Design</li>
           <li>Basic Customization</li>
           <li>Email Support</li>
-          <li>1 Month Updates</li>
+          <li>2 Weeks Updates</li>
           <li>Standard Documentation</li>
           <li>Single License</li>
         </ul>
-        <button class="btn"><i class="fas fa-shopping-cart"></i> Get Started</button>
+        <button class="btn"><i class="fas fa-shopping-cart"></i> Get in touch down below</button>
       </div>
       <div class="pricing-card animate-fade delay-1 popular">
         <h3>Standard</h3>
@@ -1455,12 +1400,12 @@ footer {
           <li>All Basic Features</li>
           <li>Advanced Customization</li>
           <li>Priority Support</li>
-          <li>3 Months Updates</li>
+          <li>1 Months Updates</li>
           <li>SEO Optimization</li>
           <li>Video Tutorials</li>
           <li>Multi-site License</li>
         </ul>
-        <button class="btn"><i class="fas fa-shopping-cart"></i> Get Started</button>
+        <button class="btn"><i class="fas fa-shopping-cart"></i> Get in touch down below</button>
       </div>
       <div class="pricing-card animate-fade delay-2">
         <h3>Premium</h3>
@@ -1469,7 +1414,7 @@ footer {
           <li>All Standard Features</li>
           <li>Full Custom Development</li>
           <li>24/7 Support</li>
-          <li>6 Months Updates</li>
+          <li>3 Months Updates</li>
           <li>Performance Optimization</li>
           <li>Lifetime License</li>
           <li>White-label Rights</li>
@@ -1555,7 +1500,7 @@ footer {
     <h2>Contact Information</h2>
     <div class="contact-info">
       <p><i class="fas fa-user"></i> <strong>Owner:</strong> Hassan Yagoub</p>
-      <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:hy07my@gmail.com">hy07my@gmail.com</a></p>
+      <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:hsn07n@gmail.com">hsn07n@gmail.com</a></p>
       <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Glasgow City, UK</p>
       <p><i class="fas fa-clock"></i> <strong>Hours:</strong> Tue-Fri, 9am-5pm GMT</p>
       <p><i class="fas fa-laptop-code"></i> <strong>Services:</strong> Custom HTML/CSS templates, website themes</p>
@@ -1637,23 +1582,7 @@ footer {
 
 <div id="toast" class="toast"></div>
 
-<!-- Payment Processing Modal -->
-<div id="payment-processing" class="payment-modal">
-  <div class="payment-modal-content">
-    <div id="payment-spinner" class="payment-spinner">
-      <i class="fas fa-circle-notch"></i>
-    </div>
-    <div id="payment-success" class="payment-success">
-      <i class="fas fa-check-circle"></i>
-    </div>
-    <div id="payment-error" class="payment-error">
-      <i class="fas fa-times-circle"></i>
-    </div>
-    <h3 id="payment-message">Processing Payment</h3>
-    <p id="payment-details"></p>
-    <button id="payment-close-btn" class="btn primary-btn">Close</button>
-  </div>
-</div>
+
 
 <script>
   // Dark Mode Toggle
@@ -1803,23 +1732,7 @@ footer {
   window.addEventListener('scroll', animateOnScroll);
   window.addEventListener('load', animateOnScroll);
   
-  // Payment Processing
-  const paymentModal = document.getElementById('payment-processing');
-  const paymentSpinner = document.getElementById('payment-spinner');
-  const paymentSuccess = document.getElementById('payment-success');
-  const paymentError = document.getElementById('payment-error');
-  const paymentMessage = document.getElementById('payment-message');
-  const paymentDetails = document.getElementById('payment-details');
-  const paymentCloseBtn = document.getElementById('payment-close-btn');
-
-  function processPayment(product, price, method) {
-    paymentModal.style.display = 'flex';
-    paymentSpinner.style.display = 'block';
-    paymentSuccess.style.display = 'none';
-    paymentError.style.display = 'none';
-    paymentMessage.textContent = 'Processing Payment...';
-    paymentDetails.textContent = `${product} - $${price} via ${method}`;
-    paymentCloseBtn.style.display = 'none';
+ 
     
     // Simulate payment processing (in a real app, this would call your payment API)
     setTimeout(() => {
@@ -1840,48 +1753,7 @@ footer {
           email: 'hy07my@gmail.com' // Your email to receive notifications
         };
         
-        console.log('Payment data to send to server:', paymentData);
         
-        // Here you would typically send this to your backend
-        // fetch('/api/payments', {
-        //   method: 'POST',
-        //   headers: { 'Content-Type': 'application/json' },
-        //   body: JSON.stringify(paymentData)
-        // });
-        
-      } else {
-        paymentSpinner.style.display = 'none';
-        paymentError.style.display = 'block';
-        paymentMessage.textContent = 'Payment Failed';
-        paymentDetails.textContent += ' - Please try another payment method';
-      }
-      
-      paymentCloseBtn.style.display = 'block';
-    }, 2000);
-  }
-  
-  paymentCloseBtn.addEventListener('click', function() {
-    paymentModal.style.display = 'none';
-    // Close any open project popups
-    document.querySelectorAll('.modal').forEach(modal => {
-      modal.style.display = 'none';
-    });
-    document.body.style.overflow = 'auto';
-  });
-
-  // Handle purchase buttons
-  const purchaseBtns = document.querySelectorAll('.purchase-btn, .pricing-card .btn');
-  
-  purchaseBtns.forEach(btn => {
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      const product = this.getAttribute('data-product') || this.closest('.pricing-card').querySelector('h3').textContent;
-      const price = this.getAttribute('data-price') || this.closest('.pricing-card').querySelector('.price').textContent.replace(/\D/g,'');
-      
-      // For demo, we'll just simulate Apple Pay
-      processPayment(product, price, 'Online Payment');
-    });
-  });
 
   // Contact form handling
   const contactForm = document.querySelector('#contact form');
